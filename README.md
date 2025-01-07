@@ -27,14 +27,21 @@ If you want to use the Python scripts as standalone executables on Windows, foll
 - Install PyInstaller using the command:
   ```bash
   pip install pyinstaller
-Steps
+
+
+##Steps
+
 Place all Python files (sample_key.py and sam.py) in the same directory.
+
 Open a terminal or command prompt in the directory containing the files.
 Run the following commands to create executables:
+
 For sample_key.py:
 pyinstaller --onefile sample_key.py
+
 For main.py:
 pyinstaller --onefile main.py
+
 The executables will be generated in the dist folder.
 
 Optional
