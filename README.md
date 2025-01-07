@@ -15,4 +15,4 @@ This is a Python-based keylogger for **educational purposes only**. It demonstra
 1. Replace `MAIL` and `APP_PASSWORD` in `sam.py` with your Gmail address and app password.
 2. Run the main script:
    ```bash
-   python main.py
+   sam.py
